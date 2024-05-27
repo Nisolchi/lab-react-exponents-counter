@@ -25,12 +25,12 @@ function App () {
       <h2><em>Exponents</em></h2>
 
       <div className="container">
-        <Exponent count={count} decrement={decrement}increment={increment} setExponent={setExponent}/>
-        <ExponentTwo count={count} />
-        <ExponentThree count={count} />
-        <ExponentFour count={count} />
-        <ExponentFive count={count} />
-        <ExponentSix count={count} />
+        <Exponent count={count} decrement={decrement}increment={increment}exponent={exponent}/>
+        <ExponentTwo count={count} setCount={setCount}decrement={decrement} increment={increment}/>
+        <ExponentThree count={count} setCount={setCount}decrement={decrement} increment={increment} />
+        <ExponentFour count={count} setCount={setCount}decrement={decrement} increment={increment} />
+        <ExponentFive count={count} setCount={setCount}decrement={decrement} increment={increment} />
+        <ExponentSix count={count} setCount={setCount}decrement={decrement} increment={increment}/>
       </div>
     </div>
   );
